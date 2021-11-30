@@ -1,0 +1,181 @@
+#logo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+/* Navbar container */
+.navbar {
+    display: inline-block;
+    overflow: hidden;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    
+  }
+  
+  .navbar a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    
+    
+    
+  }
+  
+  .dropdown {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;	
+    font-family: inherit;
+    margin: auto;
+    padding:5px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* End Navbar */
+
+
+/* Photo transitions section*/
+@keyframes cf4aFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  #cf4a {
+    position:relative;
+    
+    right:0;
+    left:0;
+    bottom:0;
+    background:white;
+    height:500px;
+    width:100%;
+    margin:auto;
+  }
+  
+  #cf4a img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    animation-name: cf4aFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+    animation-direction: normal;
+  }
+  
+  #cf4a img:nth-of-type(1) {
+    animation-delay: 20s;
+  }
+  #cf4a img:nth-of-type(2) {
+    animation-delay: 15s;
+  }
+  #cf4a img:nth-of-type(3) {
+    animation-delay: 10s;
+  }
+  #cf4a img:nth-of-type(4) {
+    animation-delay: 5s;
+  }
+  #cf4a img:nth-of-type(5) {
+      animation-delay: 0s;
+  }
+  /* End Photo Transition */
+
+  
+
+
+  /* footer Section */
+  #feet{
+      padding-top: 10%;
+      background-color: lightgray;
+      overflow: auto;
+  }
+  #feetpic{
+      margin: auto;
+      position: relative;
+      
+      
+      
+
+  }
+  #copyright{
+      text-align: center;
+      vertical-align: bottom;
+
+  }
+  #comments{
+      float: left;
+      vertical-align: bottom;
+  }
+  /* End Footer */
+
+
+
+
+
+
+
+    
+
+
+
+
