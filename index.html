@@ -2,12 +2,22 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>TrueSafety</title>
 
         <link rel="stylesheet" href="css/Styles.css">
+
+        
+
     </head>
     <body>
+
+      <div class="container" id="headerMessage">
+        <p id="comments">Original Website:<a href="https://truesafetyeval.com/" target="_blank">truesafetyeval.com</a>
+        <a href="https://github.com/brandoncoplen/TrueSafetyEval.com" target="_blank">GitHub</a> Validity: goes here</p>
+      </div>
+
         <img src="images/TFimg.png" alt="TSImg" id="logo"><br>
 
         <div class="image-container">
@@ -64,14 +74,50 @@
 
           
 
-
+        
 
         <!-- Footer Section -->
         <footer id="feet">
+          <div class="container-fluid">
+            <div class="row">
+        
+
+              <!-- Form -->
+              <div class="container">
+                
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+                <!-- End Form -->
+
+                <!-- Contact -->
+              <div class="container" id="ContactUs">
+                <h2>Contact Us</h2>
+              </div>
+              <!-- End Contact -->
+            </div>
+          </div>
+
+            <div>
+              <img src="images/TFimg.png" id="feetpic">
+            </div>
+
             
-            <img src="images/TFimg.png" id="feetpic">
-            <p id="comments">Original Website: Goes here Github: goes here Validity: goes here</p>
-            <p id="copyright">© 2021 TrueSafety Evaluation</p>
+            <div>
+              <p id="copyright">© 2021 TrueSafety Evaluation</p>
+            </div>
             
         </footer>
         
