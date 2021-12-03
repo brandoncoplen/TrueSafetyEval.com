@@ -79,7 +79,11 @@
   }
   /* End Photo Transition */
 
-  
+  /* Navbar Section */
+  nav-link{
+    color: black;
+  }
+  /* End Navbar Section */
 
 
   /* footer Section */
@@ -147,6 +151,10 @@
 
   #ContactUs{
     margin-bottom: auto;
+  }
+
+  .nav-link{
+    color: black;
   }
 
 
